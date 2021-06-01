@@ -21,15 +21,20 @@ main {
 .left-column {
     width: 40%;
     float: left;
-    background-color: yellow;
+    background-color: #4232a0;
     padding: 40px;
+    background-image: url("../img/hill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 .bottom-links {
 }
 
 .bottom-links > a {
-
+    color: #fff;
 }
 
 .bottom-links > span {
@@ -38,6 +43,7 @@ main {
 
 .main-title {
     font-size: 60px;
+    margin-bottom: 350px;
 }
 
 .right-column {
