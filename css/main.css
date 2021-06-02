@@ -51,8 +51,16 @@ main {
     float: left;
     background-color: #fff;
     padding: 60px;
+    position: relative;
 }
 
 .close {
-
+    display: inline-block;
+    width: 60px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
